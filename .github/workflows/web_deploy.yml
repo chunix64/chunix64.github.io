@@ -1,8 +1,8 @@
-name: Deploy Vite React to Pages
+name: Deploy Github Pages
 
 on:
   push:
-    branches: ['web']
+    branches: ['main']
 
 permissions:
   contents: read
