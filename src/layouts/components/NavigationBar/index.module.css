@@ -1,0 +1,26 @@
+.nav {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: bold;
+  background-color: var(--nav-bg-color);
+
+  a {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: var(--base-gap);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .active {
+    background-color: var(--active-bg-color);
+
+    a {
+      color: var(--active-text-color);
+    }
+  }
+}

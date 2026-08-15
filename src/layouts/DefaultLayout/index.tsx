@@ -1,4 +1,4 @@
-import NavigationBar from '@/layouts/components/header'
+import NavigationBar from '@/layouts/components/NavigationBar'
 import { Outlet } from 'react-router-dom'
 import styles from './index.module.css'
 
